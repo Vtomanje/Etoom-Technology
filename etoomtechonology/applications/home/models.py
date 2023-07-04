@@ -7,8 +7,8 @@ class Home(TimeStampedModel):
     """ Modelo de pagina de Home """
     title = models.CharField('nombre', max_length=30)
     descripcion = models.TextField()
-    about_title = models.CharField('Proximo Evento', max_length=50)
-    about_text = models.TextField('Nombre del Evento')
+    about_title = models.CharField('Acerca del Titulo', max_length=50)
+    about_text = models.TextField('Acerca del Texto')
     contact_email = models.EmailField('email de contacto', blank=True, null=True)
     public = models.BooleanField(default=False)
     image = models.ImageField('Imagen', upload_to='Home')
