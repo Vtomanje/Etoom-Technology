@@ -40,8 +40,8 @@ DJANGO_APPS = (
     'django.contrib.humanize',
 
     
-    'tailwind',
-    'theme',
+    #'tailwind',
+    #'theme',
     
 )
 
